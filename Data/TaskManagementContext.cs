@@ -45,13 +45,10 @@ public class TaskManagementContext : DbContext
 
 
 
-        // initializing data
-        // ====================================== DON'T CHANGE THIS PART ======================================
         modelBuilder.Entity<User>().HasData(
             new User { Id = 1, Username = "admin", Password = "admin", Role = "Admin" },
             new User { Id = 2, Username = "user1", Password = "user1password", Role = "Regular" }
         );
-        // ====================================================================================================
         
     }
 }
