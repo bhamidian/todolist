@@ -1,6 +1,6 @@
 using ConsoleApp.Data.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Infrastructure; // Add this using directive
+using Microsoft.EntityFrameworkCore.Infrastructure; 
 
 namespace ConsoleApp.Data;
 
